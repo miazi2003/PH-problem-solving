@@ -7,8 +7,13 @@
 </head>
 <body>
     <script>
-        // Write a function that takes a string and returns it reversed.
 
+
+
+
+// problem 1
+
+// Write a function that takes a string and returns it reversed.
 // Example:
 // Input: "hello"
 // Output: "olleh"
@@ -19,6 +24,41 @@ function reversed(str){
 }
 
 console.log(reversed("hello"))
+
+
+
+//problem 2
+
+// Write a function that counts how many vowels (a, e, i, o, u) are in a given string.
+
+// Example:
+// Input: "programming"
+// Output: 3
+
+
+function vowelsCount(text){
+let count = 0;
+let vowels = "aioeu";
+for(let i = 0 ; i < text.length ; i ++){
+    if(vowels.includes(text[i])){
+        count ++
+    }
+}
+
+return count;
+}
+
+
+console.log(vowelsCount("yeasin"))
+
+
+
+
+
+
+
+
+
     </script>
 </body>
 </html>
